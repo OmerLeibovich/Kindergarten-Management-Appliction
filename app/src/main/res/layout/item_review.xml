@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/class_item_border">
+
+    <TextView
+        android:id="@+id/textViewParentEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Parent_Email"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Comment" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Rating" />
+
+    <TextView
+        android:id="@+id/textViewReviewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Date" />
+
+    <TextView
+        android:id="@+id/textViewResponse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Response"
+        android:visibility="gone"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonReply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Reply"
+        android:visibility="gone"/>
+
+    <Spinner
+        android:id="@+id/spinnerAdminStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/StatusButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Update_Status"
+        android:visibility="gone"/>
+</LinearLayout>

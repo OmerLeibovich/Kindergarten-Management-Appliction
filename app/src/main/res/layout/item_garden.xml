@@ -1,0 +1,146 @@
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewGarten"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/garden_image" />
+
+        <TextView
+            android:id="@+id/textViewGartenName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Name"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textViewGartenAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address" />
+
+        <TextView
+            android:id="@+id/textViewGartenCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/City" />
+
+        <TextView
+            android:id="@+id/StatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Status"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="end">
+
+
+            <Button
+                android:id="@+id/Reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Reviews"
+                android:layout_marginStart="8dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/buttonViewAllChildren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/View_All_Children" />
+
+            <Button
+                android:id="@+id/buttonViewClasses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/view_classes"
+                android:layout_marginStart="8dp" />
+            <Button
+                android:id="@+id/RateGarden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/RateGarden"
+                android:layout_marginStart="8dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonRegisterGarden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Register_Garden"
+            android:layout_gravity="end"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/OpenRegisterGarden"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/Open_Register_For_Garden"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/buttonChangeAffiliation"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="@string/Change_Affiliation"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/buttonEditGarden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_garden" />
+
+            <Button
+                android:id="@+id/buttonDeleteGarden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_garden"
+                android:layout_marginStart="8dp" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/View_Photos"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:visibility="gone" />
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

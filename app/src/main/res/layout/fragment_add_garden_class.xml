@@ -1,0 +1,80 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".staff.AddGardenClassFragment">
+
+    <EditText
+        android:id="@+id/courseNumberField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Course_Number"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <Spinner
+        android:id="@+id/courseTypeSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/course_types"
+        app:layout_constraintTop_toBottomOf="@id/courseNumberField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <EditText
+        android:id="@+id/maxChildrenField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Max_Children"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/courseTypeSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <EditText
+        android:id="@+id/minAgeField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Min_Age"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/maxChildrenField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <EditText
+        android:id="@+id/maxAgeField"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Max_Age"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@id/minAgeField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <Spinner
+        android:id="@+id/gartenSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/maxAgeField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add"
+        app:layout_constraintTop_toBottomOf="@id/gartenSpinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

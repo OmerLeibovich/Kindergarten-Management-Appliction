@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProjectApp</string>
+    <string name="Hello">Hello</string>
+    <string name="MainButton1">Staff Member? </string>
+    <string name="MainButton2">parent?</string>
+    <string name="Email">Email</string>
+    <string name="FullName">FullName</string>
+    <string name="Name">Name</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="AddKinderGartenClass">AddKinder
+        GardenClass</string>
+    <string name="AddKinderGarten">AddKinder
+        Garden</string>
+    <string name="KINDERGARTEN_TEACHER">KINDERGARTEN_TEACHER</string>
+    <string name="ASSISTANT">ASSISTANT</string>
+    <string name="KINDERGARTEN_MANAGER">KINDERGARTEN_MANAGER</string>
+    <string name="Select_Date">Select Date</string>
+    <string name="Choose_Date">Choose Date</string>
+    <string name="Register">Register</string>
+    <string name="Already_have_an_account_Login">Already have an account? Login</string>
+    <string name="I_already_have_a_user">I already have a user</string>
+    <string name="Course_Number">Course Number</string>
+    <string name="Max_Children">Max Children</string>
+    <string name="Min_Age">Min Age</string>
+    <string name="Max_Age">Max Age</string>
+    <string name="Add">Add</string>
+    <string name="City">City</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="Set_Open_Time">Set Open Time</string>
+    <string name="Set_Close_Time">Set Close Time</string>
+    <string name="Address">Address</string>
+    <string name="Upload_Image">Upload Image</string>
+    <string name="garden_image">Garden Image</string>
+    <string name="view_classes">View Classes</string>
+    <string name="edit_garden">Edit Garden</string>
+    <string name="delete_garden">Delete Garden</string>
+    <string name="remove_child_from_garden">Remove Child From Garden</string>
+    <string name="Child_ID">Child ID</string>
+    <string name="Class_Name">Class Name</string>
+    <string name="Time">Time</string>
+    <string name="Role">Role</string>
+    <string name="Start_to_Work">Start to Work</string>
+    <string name="Garten">Garden</string>
+    <string name="Update">Update</string>
+    <string name="Remove">Remove</string>
+    <string name="Add_Course">Add Course</string>
+    <string name="Parent_Email">Parent Email</string>
+    <string name="Comment">Comment</string>
+    <string name="Rating">Rating</string>
+    <string name="Date">Date</string>
+    <string name="Response">Response</string>
+    <string name="Reply">Reply</string>
+    <string name="Update_Status">Update Status</string>
+    <string name="Author">Author</string>
+    <string name="Course_Type">Course Type</string>
+    <string name="Note">Note</string>
+    <string name="Delete">Delete</string>
+    <string name="Status">Status</string>
+    <string name="Reviews">Reviews</string>
+    <string name="View_All_Children">View All Children</string>
+    <string name="RateGarden">RateGarden</string>
+    <string name="Register_Garden">Register Garden</string>
+    <string name="Open_Register_For_Garden">Open Register For Garden</string>
+    <string name="Change_Affiliation">Change Affiliation</string>
+    <string name="View_Photos">View Photos</string>
+    <string name="Age">Age</string>
+    <string name="Classes">Classes</string>
+    <string name="Add_Note">Add Note</string>
+    <string name="Child_Full_Name">Child Full Name</string>
+    <string name="Save_Image">Save Image</string>
+    <string name="System_Administrator">System Administrator</string>
+    <string name="Select_up_to_3_courses">Select up to 3 courses</string>
+    <string name="Age_optional">Age (optional)</string>
+    <string name="Search">Search</string>
+    <string name="Rate_the_Garden">Rate the Garden</string>
+    <string name="Write_your_review_here">Write your review here</string>
+    <string name="Submit">Submit</string>
+    <string name="Filter">Filter</string>
+    <string name="Open_Time">Open Time</string>
+    <string name="Course">Course</string>
+    <string name="Close_Time">Close Time</string>
+    <string name="Organizational_Affiliation">Organizational Affiliation</string>
+    <string name="Select_Classes">Select Classes</string>
+    <string name="Hobby">Hobby</string>
+    <string name="Sort_by_Child_Count">Sort by Child Count</string>
+    <string name="Enter_minimum_percentage">Enter minimum percentage</string>
+    <string name="Enter_maximum_percentage">Enter maximum percentage</string>
+    <string name="Enter_your_note">Enter your note</string>
+    <string name="Sort_By_Precent">Sort By
+            Precent</string>
+    <string name="Open_Registration">Open Registration</string>
+    <string name="Add_Organizational_Affiliation">Add Organizational Affiliation</string>
+    <string-array name="course_types">
+        <item>Sport</item>
+        <item>Music</item>
+        <item>Art</item>
+        <item>Computes</item>
+    </string-array>
+    <string-array name="course_types_filter">
+        <item></item>
+        <item>Sport</item>
+        <item>Music</item>
+        <item>Art</item>
+        <item>Computes</item>
+        <item>None</item>
+    </string-array>
+    <string-array name="admin_rating_options">
+        <item>Bad</item>
+        <item>Fine</item>
+        <item>Great</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

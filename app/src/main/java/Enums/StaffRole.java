@@ -1,0 +1,9 @@
+package Enums;
+
+public enum StaffRole {
+    KINDERGARTEN_TEACHER,
+    ASSISTANT,
+    KINDER_GARTEN_DIRECTOR,
+    SYSTEM_ADMINISTRATOR;
+}
+
